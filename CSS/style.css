@@ -60,7 +60,7 @@ header {
   padding-bottom: 30px;
   position: relative;
   padding-top: 40px;
-  height: 100vh;
+  height: 56vh;
   background-color: rgb(33, 36, 40);
   display: flex;
   flex-direction: column;
@@ -75,8 +75,12 @@ header {
   align-items: center;
 }
 .hero .container h1 {
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
+  z-index: 1;
+}
+.hero .container .hel {
+  padding-top: 30px;
 }
 .hero .container button {
   padding: 15px;
@@ -92,8 +96,11 @@ header {
   border-radius: 100%;
   border: 15px solid rgb(228, 0, 55);
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 50px;
   text-align: center;
+  position: absolute;
+  top: 58px;
+  left: 60px;
 }
 
 .skills {
@@ -107,6 +114,7 @@ header {
 .skills h5 {
   padding-bottom: 40px;
   text-align: center;
+  color: rgb(228, 0, 55);
 }
 .skills h3 {
   text-align: center;
@@ -562,6 +570,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     height: 30vh;
     position: absolute;
     top: 70px;
+    left: auto;
   }
   .social {
     color: white;

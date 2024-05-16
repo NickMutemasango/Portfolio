@@ -54,10 +54,11 @@ header{
 }
 
 .hero{
+
     padding-bottom: 30px;
     position: relative;
     padding-top: 40px;
-    height: 100vh;
+    height: 56vh;
     background-color: rgba(33, 36, 40, 1);
     display: flex;
     flex-direction: column;
@@ -70,7 +71,8 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        h1{font-size: 60px;text-align: center;}
+        h1{font-size: 50px;text-align: center;z-index: 1;}
+        .hel{padding-top: 30px;}
        
         button{
             padding: 15px;
@@ -87,14 +89,17 @@ header{
         border-radius: 100%;
         border: 15px solid rgba(228, 0, 55, 1);
         margin-bottom: 20px;
-        margin-top: 20px;
+        margin-top: 50px;
         text-align: center;
+        position: absolute;
+        top: 58px;
+        left: 60px;
     }
 }
 
 
 .skills{
-    h5{padding-bottom: 40px;text-align: center;}
+    h5{padding-bottom: 40px;text-align: center;color: rgba(228, 0, 55, 1);}
     h3{text-align: center;}
     color: white;
     background-color: rgba(33, 36, 40, 1);
@@ -539,12 +544,11 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     .overlay{
         position: absolute;
         height: 100%;
-        
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        .red{width: 30vh;height: 30vh;position: absolute;top: 70px;}
+        .red{width: 30vh;height: 30vh;position: absolute;top: 70px;left: auto;}
     }
      }
    }
