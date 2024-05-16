@@ -56,6 +56,10 @@ header {
   display: none;
 }
 
+html {
+  transform: smooth;
+}
+
 .hero {
   padding-bottom: 30px;
   position: relative;
@@ -211,16 +215,26 @@ header {
   margin-bottom: 20px;
   background-color: white;
   margin-top: 15px;
+  height: 90%;
 }
 .projects .sylish a {
   color: #E0A701;
   padding: 15px;
 }
+.projects .sylish img {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
 .projects .indulge {
   background-color: white;
+  height: 90%;
 }
 .projects .indulge a {
   color: #1ABC9C;
+}
+.projects .indulge img {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .social {
@@ -921,9 +935,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .projects .indulge a {
     color: #1ABC9C;
-  }
-  .projects .indulge img {
-    height: 33vh;
   }
   .social {
     color: white;
