@@ -1020,7 +1020,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .contact .inputBox {
     margin-top: 10px;
     position: relative;
-    width: 48%;
+    width: 100%;
   }
   .contact .inputBox input {
     width: 100%;
@@ -1068,7 +1068,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .contact .inputbox {
     position: relative;
     margin-top: 10px;
-    width: 97.4%;
+    width: 100%;
   }
   .contact .inputbox textarea {
     width: 100%;

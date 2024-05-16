@@ -941,7 +941,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
             .inputBox{
                 margin-top: 10px;
                 position: relative;
-                width: 48%;                
+                width: 100%;                
                 input{
                     width: 100%;
                     padding: 10px;
@@ -989,9 +989,11 @@ No media query since this is the default in Bootstrap because it is "mobile firs
             .inputbox{
                 position: relative;
                 margin-top: 10px;
-                width: 97.4%;
+                width: 100%;
+              
                 textarea{
                     width: 100%;
+                    
                     height: 20vh;
                     padding: 10px;
                     background-color: rgba(33, 36, 40, 1);
