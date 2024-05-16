@@ -346,10 +346,10 @@ header {
   margin-top: 10px;
   position: relative;
   margin-right: 10px;
-  width: 20vh;
+  width: 100%;
 }
 .contact .inputBox input {
-  width: 20vh;
+  width: 100%;
   padding: 10px;
   border: 1px solid rgb(228, 0, 55);
   background-color: rgb(33, 36, 40);
@@ -391,8 +391,8 @@ header {
   margin-top: 10px;
 }
 .contact .inputbox textarea {
-  width: 42vh;
-  height: 10vh;
+  width: 100%;
+  height: 15vh;
   padding: 10px;
   background-color: rgb(33, 36, 40);
   border: 1px solid rgb(228, 0, 55);
@@ -432,6 +432,9 @@ header {
 .contact .tape {
   display: flex;
   flex-wrap: wrap;
+}
+.contact .tape form {
+  width: 100%;
 }
 .contact button {
   margin-top: 5px;
@@ -722,10 +725,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .contact .inputBox {
     margin-top: 10px;
     position: relative;
-    width: 18vh;
+    width: 100%;
   }
   .contact .inputBox input {
-    width: 18vh;
+    width: 100%;
     padding: 10px;
     border: 1px solid rgb(228, 0, 55);
     background-color: rgb(33, 36, 40);
@@ -770,10 +773,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .contact .inputbox {
     position: relative;
     margin-top: 10px;
-    width: 35vh;
+    width: 100%;
   }
   .contact .inputbox textarea {
-    width: 36.8vh;
+    width: 100%;
     height: 10vh;
     padding: 10px;
     background-color: rgb(33, 36, 40);
@@ -798,6 +801,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .contact .tape {
     display: flex;
     flex-wrap: wrap;
+  }
+  .contact .tape form {
+    width: 100%;
   }
   .contact button {
     background-color: rgb(228, 0, 55);
