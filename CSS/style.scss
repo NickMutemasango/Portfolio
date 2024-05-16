@@ -834,12 +834,15 @@ No media query since this is the default in Bootstrap because it is "mobile firs
           }
         }
 
+        .skills{
+            padding-bottom: 40px;
+        }
+
         .projects{
             padding-bottom: 30px;
             padding-top: 20px;
             color: white;
             text-align: center;
-            height: 65vh;
             h3{font-size: 18px;}
             h5{font-size: 13px;}
             background-color: rgba(33, 36, 40, 1);
@@ -855,7 +858,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         .social{
             color: white;
             text-align: center;
-            height: 80vh;
             background-color: rgba(33, 36, 40, 1);
             h3{font-size: 18px;}
             h5{font-size: 11px;}
@@ -946,6 +948,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 
            .contact{
+            padding-top: 125px;
             background-color: rgba(33, 36, 40, 1);
             color: white;
             h3{font-size: 18px;text-align: center;}

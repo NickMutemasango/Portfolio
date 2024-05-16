@@ -896,12 +896,14 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     position: absolute;
     top: 70px;
   }
+  .skills {
+    padding-bottom: 40px;
+  }
   .projects {
     padding-bottom: 30px;
     padding-top: 20px;
     color: white;
     text-align: center;
-    height: 65vh;
     background-color: rgb(33, 36, 40);
   }
   .projects h3 {
@@ -939,7 +941,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .social {
     color: white;
     text-align: center;
-    height: 80vh;
     background-color: rgb(33, 36, 40);
   }
   .social h3 {
@@ -1031,6 +1032,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     box-shadow: -120px 120px 20px rgba(0, 0, 0, 0.63);
   }
   .contact {
+    padding-top: 125px;
     background-color: rgb(33, 36, 40);
     color: white;
   }
